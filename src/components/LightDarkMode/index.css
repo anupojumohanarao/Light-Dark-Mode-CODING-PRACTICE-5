@@ -1,0 +1,50 @@
+/* Write your CSS here */
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  padding: 24px;
+  align-items: center;
+}
+
+.main-card-container {
+  border-radius: 5px;
+  text-align: center;
+  padding: 24px;
+}
+
+.light-mode {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.dark-mode {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+
+@media screen and (min-height: 765px) {
+  .main-heading {
+    font-size: 20px;
+  }
+}
+
+.color-button {
+  background-color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 11px;
+  padding: 13px;
+  height: 40px;
+  width: 90px;
+  border-radius: 3px;
+}
